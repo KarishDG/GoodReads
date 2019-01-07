@@ -24,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 import static com.selenium.test.webtestsbase.Browser.CHROME;
 import static com.selenium.test.webtestsbase.Browser.FIREFOX;
 import static com.selenium.test.webtestsbase.Browser.SAFARI;
+import static junit.runner.BaseTestRunner.setPreference;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -37,8 +38,10 @@ public class AddBookToWantToReadTest {
     @BeforeMethod
     void setUp() throws Exception {
         System.setProperty("webdriver.chrome.driver", GoodreadsConstants.chromeDriverPath);
+        System.setProperty("webdriver.gecko.driver", GoodreadsConstants.firefoxDriverPath);
+        setPreference("capability.policy.default.Window.frameElement.get","allAccess");
 
-        WebDriverFactory.startBrowser(true, CHROME);
+        WebDriverFactory.startBrowser(true, FIREFOX);
         driver = WebDriverFactory.getDriver();
 
         goodreadsPage = new GoodreadsPage(driver);
@@ -46,7 +49,7 @@ public class AddBookToWantToReadTest {
         goodreadsUserAccountMainPage = new GoodreadsUserAccountMainPage(driver);
 
         driver.get(GoodreadsConstants.baseURL);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -107,7 +110,7 @@ public class AddBookToWantToReadTest {
 
         Actions moveMouse = new Actions(driver);
         moveMouse.moveToElement(goodreadsSearchResultsPage.statusToRead);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         moveMouse.moveToElement(goodreadsSearchResultsPage.removeBook).click().build().perform();
         Alert removeBookAlert = driver.switchTo().alert();
         removeBookAlert.accept();
