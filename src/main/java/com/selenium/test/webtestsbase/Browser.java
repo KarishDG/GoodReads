@@ -1,8 +1,7 @@
 package com.selenium.test.webtestsbase;
 
 /**
- * Created by Sidelnikov Mikhail on 17.09.14.
- * This class represents browsers. For add support of your browser - add it to this enum
+ Selenide framework
  */
 public enum  Browser {
     FIREFOX("firefox"),

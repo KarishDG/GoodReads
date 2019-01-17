@@ -9,9 +9,8 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.Properties;
 
-/**
- * Created by Sidelnikov Mikhail on 18.09.14.
- * Class for loading base tests properties. It gets properties - system or from file (by specified names) and sets it to fields of TestConfig object
+/*
+* * Class for loading base tests properties. It gets properties - system or from file (by specified names) and sets it to fields of TestConfig object
  */
 public class PropertiesLoader {
 

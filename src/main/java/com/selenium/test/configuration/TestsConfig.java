@@ -5,10 +5,7 @@ import com.selenium.test.configuration.properties.Property;
 import com.selenium.test.configuration.properties.PropertyFile;
 import com.selenium.test.webtestsbase.Browser;
 
-/**
- * Created by Sidelnikov Mikhail on 18.09.14.
- * Class for base tests properties - urls for test, browser name and version
- */
+
 @PropertyFile("config.properties")
 public class TestsConfig {
 

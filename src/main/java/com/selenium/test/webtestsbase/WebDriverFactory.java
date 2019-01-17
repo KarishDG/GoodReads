@@ -15,9 +15,7 @@ import java.util.concurrent.TimeUnit;
 import static com.selenium.test.webtestsbase.Browser.FIREFOX;
 
 /**
- * Created by Sidelnikov Mikhail on 18.09.14.
- * Base class for web tests. It contains web driver {@link org.openqa.selenium.WebDriver} instance, used in all tests.
- * All communications with driver should be done through this class
+ Selenide framework
  */
 public class WebDriverFactory {
     private static final long IMPLICIT_WAIT_TIMEOUT = 5;
@@ -80,14 +78,6 @@ public class WebDriverFactory {
             driver.quit();
             driver = null;
         }
-    }
-
-    /**
-     * Method for screenshot taking. It is empty now, because you could save your screenshot as you want.
-     * This method calls in tests listeners on test fail
-     */
-    public static void takeScreenShot() {
-        System.out.println("ScreenShot method called");
     }
 
 }

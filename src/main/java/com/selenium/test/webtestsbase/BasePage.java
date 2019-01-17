@@ -4,9 +4,8 @@ import com.selenium.test.utils.TimeUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by Sidelnikov Mikhail on 19.09.14.
- * This is the main class for pages. When you create your page - you must extend your class from this
+/*
+ Selenide framework
  */
 public abstract class BasePage {
     protected static final int WAIT_FOR_PAGE_LOAD_IN_SECONDS = 5;

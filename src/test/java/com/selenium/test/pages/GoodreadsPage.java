@@ -25,6 +25,7 @@ public class GoodreadsPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
+    //Login to Account method
     public void loginToAccount (String mail, String password) {
         signInEmail.sendKeys(mail);
         signInPassword.sendKeys(password);
