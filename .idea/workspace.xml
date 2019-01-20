@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c33a66eb-5114-40f1-93e6-ef810c70e4b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/TestsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/TestsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/exceptions/TestsConfigurationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/exceptions/TestsConfigurationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/utils/TimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/utils/TimeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/CapabilitiesGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/CapabilitiesGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java" afterDir="false" />
     </list>
     <ignored path="selenium-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,9 +67,10 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -121,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/test/AddBookToWantToReadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="1313">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
@@ -136,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsSearchResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="165">
+              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,22 +170,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/TestsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
+            <state relative-caret-position="60">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="318">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
+            <state relative-caret-position="75">
               <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
@@ -252,7 +242,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodReadsBookPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsSearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/test/AddBookToWantToReadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/BasePage.java" />
@@ -266,6 +255,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/Property.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java" />
       </list>
     </option>
   </component>
@@ -419,8 +409,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -641,9 +631,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddBookToWantToReadTest - 2019.01.07 at 01h 39m 28s.xml">
-      <configuration name="AddBookToWantToReadTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddBookToWantToReadTest - 2019.01.07 at 01h 42m 13s.xml">
       <configuration name="AddBookToWantToReadTest" configurationId="TestNG" />
     </history-entry>
@@ -671,15 +658,18 @@
     <history-entry file="AddBookToWantToReadTest - 2019.01.07 at 12h 05m 31s.xml">
       <configuration name="AddBookToWantToReadTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddBookToWantToReadTest - 2019.01.20 at 13h 14m 32s.xml">
+      <configuration name="AddBookToWantToReadTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="61000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -688,7 +678,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32819074" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -898,13 +888,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/TestsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
+        <state relative-caret-position="60">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -922,10 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/test/AddBookToWantToReadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="1313">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
@@ -936,17 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/test/AddBookToWantToReadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,18 +943,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsSearchResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="165">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/test/pages/GoodreadsUserAccountMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="318">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

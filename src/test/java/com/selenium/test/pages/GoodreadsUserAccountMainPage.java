@@ -12,13 +12,13 @@ public class GoodreadsUserAccountMainPage {
 
     WebDriver driver;
 
-    @FindBy(xpath = "/html/body/div[3]/div/header/div[1]/div/div[2]/form/input")
+    @FindBy(xpath = "//*[@class='searchBox__input searchBox__input--navbar']")
     WebElement searchForm;
 
-    @FindBy(xpath = "/html/body/div[3]/div/header/div[1]/div/div[2]/form/button")
+    @FindBy(xpath = "//div[@class='searchBox searchBox--navbar']//button[@type='submit']")
     WebElement searchButton;
 
-    @FindBy(xpath = "//div[@id='bookSearchResultsThe Art of Software Testing5']/div[1]/div[1]")
+    @FindBy(xpath = "//*[@class='gr-bookSearchResults__item'][1]")
     WebElement titleResult;
 
     public void insertSearchTitle(String title) {
