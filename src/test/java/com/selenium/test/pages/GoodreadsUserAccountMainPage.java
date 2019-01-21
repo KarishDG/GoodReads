@@ -13,13 +13,16 @@ public class GoodreadsUserAccountMainPage {
     WebDriver driver;
 
     @FindBy(xpath = "//*[@class='searchBox__input searchBox__input--navbar']")
-    WebElement searchForm;
+    public WebElement searchForm;
 
     @FindBy(xpath = "//div[@class='searchBox searchBox--navbar']//button[@type='submit']")
-    WebElement searchButton;
+    public WebElement searchButton;
 
     @FindBy(xpath = "//*[@class='gr-bookSearchResults__item'][1]")
-    WebElement titleResult;
+    public WebElement titleResult;
+
+    @FindBy(xpath = "//nav[@class='siteHeader__primaryNavInline']//a[@class='siteHeader__topLevelLink'][contains(text(),'My Books')]")
+    public WebElement myBooks;
 
     public void insertSearchTitle(String title) {
         searchForm.sendKeys(title);

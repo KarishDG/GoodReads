@@ -17,7 +17,7 @@ public class GoodreadsPage extends BasePage {
     @FindBy(id="user_password")
     WebElement signInPassword;
 
-    @FindBy(xpath = "//*[@id=\"sign_in\"]/div[3]/input[1]")
+    @FindBy(xpath = "//input[@value='Sign in']")
     WebElement signInButton;
 
     public GoodreadsPage (WebDriver driver) {

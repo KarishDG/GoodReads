@@ -65,7 +65,7 @@ public class AddBookToWantToReadTest {
    @Test
     public void wantToReadTitleFromSearchResultsPage() {
 
-        goodreadsUserAccountMainPage.searchBookTitle(GoodreadsConstants.searchTitle);
+        goodreadsUserAccountMainPage.searchBookTitle(GoodreadsConstants.bookTitle);
         goodreadsSearchResultsPage.wantToReadButton.click();
         assertTrue(goodreadsSearchResultsPage.statusToRead.isDisplayed());
     }
@@ -74,7 +74,7 @@ public class AddBookToWantToReadTest {
 
     @Test
     public void wantToReadTitleFromDropdownListFromSearchResultsPage(){
-        goodreadsUserAccountMainPage.searchBookTitle(GoodreadsConstants.searchTitle);
+        goodreadsUserAccountMainPage.searchBookTitle(GoodreadsConstants.bookTitle);
         goodreadsSearchResultsPage.dropdownBookList.click();
         goodreadsSearchResultsPage.wantToReadList.click();
         assertTrue(goodreadsSearchResultsPage.statusToRead.isDisplayed());
@@ -86,7 +86,7 @@ public class AddBookToWantToReadTest {
 
     @Test
     public void wantToReadBookPage(){
-        goodreadsUserAccountMainPage.selectTitleFromDropdown(GoodreadsConstants.searchTitle);
+        goodreadsUserAccountMainPage.selectTitleFromDropdown(GoodreadsConstants.bookTitle);
         goodreadsSearchResultsPage.wantToReadButton.click();
         assertTrue(goodreadsSearchResultsPage.statusToRead.isDisplayed());
 
@@ -96,7 +96,7 @@ public class AddBookToWantToReadTest {
 
    @Test
     public void wantToReadBookPageFromDropdown(){
-        goodreadsUserAccountMainPage.selectTitleFromDropdown(GoodreadsConstants.searchTitle);
+        goodreadsUserAccountMainPage.selectTitleFromDropdown(GoodreadsConstants.bookTitle);
         goodreadsSearchResultsPage.dropdownBookList.click();
         goodreadsSearchResultsPage.wantToReadList.click();
         assertTrue(goodreadsSearchResultsPage.statusToRead.isDisplayed());

@@ -12,10 +12,10 @@ public class GoodreadsSearchResultsPage {
     @FindBy(xpath = "//*[@id=\"1_book_877789\"]/div[1]/form/button/span[1]")
     public WebElement wantToReadButton;
 
-    @FindBy(xpath = "//button[@title='Remove this book from your shelves']")
+    @FindBy(xpath = "//button[@class='wtrStatusToRead wtrUnshelve']")
     public WebElement statusToRead;
 
-    @FindBy(xpath = "//form[@action='/review/destroy/877789.The_Art_of_Software_Testing']")
+    @FindBy(xpath = "//button[@title='Remove this book from your shelves']")
     public WebElement removeBook;
 
     @FindBy(xpath = "//div[@id='1_book_877789']//button[@class='wtrShelfButton']")
